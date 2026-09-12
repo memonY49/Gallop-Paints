@@ -1,0 +1,6 @@
+{
+  "name": "Gallop Paints And Industries",
+  "description": "High-end, modern architectural paints and coatings manufacturer web application featuring 3D interactive paint visualizer, product catalog, digital shade cards, store locator, and dealer network.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

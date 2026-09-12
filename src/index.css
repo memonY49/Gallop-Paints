@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Outfit', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --color-navy: #0F2027;
+    --color-cyan: #00CED1;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #F8F9FA;
+    color: #0F2027;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Bold Typography Utility Enhancements */
+.font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+.text-cyan-brand {
+  color: #00CED1;
+}
+
+.bg-cyan-brand {
+  background-color: #00CED1;
+}
+
+.border-cyan-brand {
+  border-color: #00CED1;
+}
+
+.tracking-super-wide {
+  letter-spacing: 0.2em;
+}
+
+/* Bold Typography Heading Utilities */
+.heading-hero-bold {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+}
+
+.badge-bold-yellow {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  background-color: #FEF08A;
+  color: #854D0E;
+  font-size: 0.625rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  border-radius: 0.375rem;
+  text-transform: uppercase;
+}
